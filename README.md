@@ -18,7 +18,7 @@ It will start a producer with topic test. Publish the message below into that to
 >Hi there!
 >It is a test message.
 
-```andrew@host$ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning```
+```bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning```
 
 It will start the consume and see the message below. 
 >Hi there!
